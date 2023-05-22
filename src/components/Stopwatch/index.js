@@ -24,7 +24,7 @@ class Stopwatch extends Component {
 
   updateTime = () => {
     this.setState(prevState => ({
-      timeElapsedInSeconds: prevState + 1,
+      timeElapsedInSeconds: prevState.timeElapsedInSeconds + 1,
     }))
   }
 
